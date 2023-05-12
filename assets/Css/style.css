@@ -1,0 +1,130 @@
+/* color palette */
+:root {
+  --mainBabyBlue: #70d6ff;
+  --mainFrenchPink: #ff70a6;
+  --mainLightSalmon: #ff9770;
+  --mainOrangeYellowCrayola: #ffd670;
+  --mainMindaro: #e9ff70;
+  --mainRichBlackFOGRA39: #02020a;
+  --mainRed: #b80c09;
+  --mainWhite: #ffffff;
+  --mainGreen: #59cd90;
+}
+
+@font-face {
+  font-family: "God of War";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/god-of-war.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Oh Whale - OTF";
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Oh-Whale-OTF.woff) format("woff");
+}
+
+@font-face {
+  font-family: raleway;
+  src: url("../fonts/raleway-v28-latin-regular.woff") format(woff);
+}
+
+body {
+  font-family: raleway, Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #4a2040;
+}
+
+a {
+  text-decoration: none;
+  color: var(--mainRichBlackFOGRA39);
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.cont {
+  height: 100vh;
+}
+
+.game-container {
+  background-color: var(--mainFrenchPink);
+  box-shadow: 0px 0px 16px -3px rgba(0, 0, 0, 1);
+  height: 450px;
+}
+
+.icon {
+  color: var(--mainRichBlackFOGRA39);
+  opacity: 0.5;
+}
+
+.game-main {
+  height: 75%;
+}
+
+.game-title {
+  font-family: "Oh Whale - OTF";
+  font-size: 50px;
+  text-shadow: var(--mainWhite) 1px 1px 10px;
+}
+
+.game-btn {
+  background-color: var(--mainMindaro);
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--mainRichBlackFOGRA39);
+  background-color: var(--mainOrangeYellowCrayola);
+  transition: 0.3s;
+  box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 1);
+}
+
+.game-btn:active {
+  background-color: var(--mainMindaro) !important;
+  border: none;
+  outline: none;
+}
+
+.game-btn:hover {
+  background-color: var(--mainMindaro);
+  transform: translateY(-2px);
+}
+
+.numb {
+  padding-right: 5px;
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.game-footer {
+  height: 15vh;
+}
+
+.game-footer-text {
+  font-weight: 700;
+}
+
+.score-win {
+  color: var(--mainGreen);
+  font-weight: 900;
+}
+
+.score-lose {
+  color: var(--mainRed);
+  font-weight: 900;
+}
+
+.reset-btn {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  font-weight: 500;
+  color: var(--mainRichBlackFOGRA39);
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.reset-btn:hover {
+  opacity: 1;
+}
