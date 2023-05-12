@@ -1,4 +1,4 @@
-/* color palette */
+/* Color palette */
 :root {
   --mainBabyBlue: #70d6ff;
   --mainFrenchPink: #ff70a6;
@@ -11,6 +11,7 @@
   --mainGreen: #59cd90;
 }
 
+/* Custom fonts */
 @font-face {
   font-family: "God of War";
   font-style: normal;
@@ -30,11 +31,13 @@
   src: url("../fonts/raleway-v28-latin-regular.woff") format(woff);
 }
 
+/* Body styles */
 body {
   font-family: raleway, Tahoma, Geneva, Verdana, sans-serif;
   background-color: #4a2040;
 }
 
+/* Link styles */
 a {
   text-decoration: none;
   color: var(--mainRichBlackFOGRA39);
@@ -45,37 +48,42 @@ a:hover {
   opacity: 1;
 }
 
+/* Container styles */
 .cont {
   height: 100vh;
 }
 
+/* Game container styles */
 .game-container {
   background-color: var(--mainFrenchPink);
   box-shadow: 0px 0px 16px -3px rgba(0, 0, 0, 1);
   height: 450px;
 }
 
+/* Icon styles */
 .icon {
   color: var(--mainRichBlackFOGRA39);
   opacity: 0.5;
 }
 
+/* Game main styles */
 .game-main {
   height: 75%;
 }
 
+/* Game title styles */
 .game-title {
   font-family: "Oh Whale - OTF";
   font-size: 50px;
   text-shadow: var(--mainWhite) 1px 1px 10px;
 }
 
+/* Game button styles */
 .game-btn {
   background-color: var(--mainMindaro);
   font-size: 20px;
   font-weight: 700;
   color: var(--mainRichBlackFOGRA39);
-  background-color: var(--mainOrangeYellowCrayola);
   transition: 0.3s;
   box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 1);
 }
@@ -91,6 +99,7 @@ a:hover {
   transform: translateY(-2px);
 }
 
+/* Number input styles */
 .numb {
   padding-right: 5px;
   padding-left: 10px;
@@ -98,14 +107,17 @@ a:hover {
   font-weight: 700;
 }
 
+/* Game footer styles */
 .game-footer {
   height: 15vh;
 }
 
+/* Game footer text styles */
 .game-footer-text {
   font-weight: 700;
 }
 
+/* Score styles */
 .score-win {
   color: var(--mainGreen);
   font-weight: 900;
@@ -116,6 +128,7 @@ a:hover {
   font-weight: 900;
 }
 
+/* Reset button styles */
 .reset-btn {
   background-color: transparent;
   border: 0;

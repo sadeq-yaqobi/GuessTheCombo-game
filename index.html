@@ -2,43 +2,53 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guess The combo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Guess The Combo</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/Css/style.css">
 </head>
 
 <body>
-    <section class="container cont row  mx-auto py-5 align-items-center ">
+    <section class="container cont row mx-auto py-5 align-items-center">
         <div class="container game-container py-3 col rounded-4 col-md-8">
             <header class="header d-flex justify-content-between">
                 <div>
+                    <!-- Share button -->
                     <a href="#" class="text-decoration-none icon mx-2 "><i class="fas fa-share-alt"></i></a>
-                    <a href="#" class="text-decoration-none icon  "><i class="fas fa-question-circle"></i></a>
+                    <!-- Help button -->
+                    <a href="#" class="text-decoration-none icon"><i class="fas fa-question-circle"></i></a>
                 </div>
-                <button class="reset-btn invisible p-0 m-0 " title="reset"><i class="fas fa-redo"></i></button>
+                <!-- Reset button -->
+                <button class="reset-btn invisible p-0 m-0" title="reset"><i class="fas fa-redo"></i></button>
             </header>
-            <main class="game-main  d-flex flex-column align-items-center py-3">
-                <h1 class="game-title text-capitalize mb-5">
-                    guess the combo
-                </h1>
-                <form class="numb-box text-center "></form>
-                <button class="btn game-btn mt-5 py-2 px-5">start</button>
+            <main class="game-main d-flex flex-column align-items-center py-3">
+                <!-- Game title -->
+                <h1 class="game-title text-capitalize mb-5">Guess the Combo</h1>
+                <!-- Number input form -->
+                <form class="numb-box text-center"></form>
+                <!-- Start button -->
+                <button class="btn game-btn mt-5 py-2 px-5">Start</button>
             </main>
             <footer class="game-footer d-flex flex-column justify-content-center align-items-center pt-4">
+                <!-- Footer text -->
                 <p class="game-footer-text"></p>
             </footer>
         </div>
     </section>
+
+    <!-- JavaScript code -->
+    <script src="assets/JavaScript/MyJavaScript.js"></script>
 </body>
-<noscript>Sorry...JavaScript is needed to go ahead.</noscript>
-<script src="assets/JavaScript/MyJavaScript.js"></script>
 
 </html>
