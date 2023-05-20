@@ -1,7 +1,7 @@
 # GuessTheCombo-game
 GuessTheCombo-game is a JavaScript game where players attempt to guess a secret combination of numbers. This project aims to provide an entertaining and challenging gaming experience. The game is built using ‍‍`Bootstrap`, a popular front-end framework, to enhance the user interface and provide a responsive design.
 
-![preview GuessTheCombo game image](assets/images/preview-guessTheCombo-img-01.png)
+Play the Guess The Combo game [here](https://sadeq-yaqobi.github.io/GuessTheCombo-game/).
 
 ## How the Game Works
 **The game follows a simple set of rules:**
@@ -19,7 +19,7 @@ GuessTheCombo-game is a JavaScript game where players attempt to guess a secret 
 
 These visual cues help the player in narrowing down their guesses to eventually determine the correct hidden number.
 
-![preview GuessTheCombo game image](assets/images/preview-guessTheCombo-img-02.png)
+
 ## Running the Game
 **To run the GuessTheCombo-game locally, follow these steps:**
 1. Ensure you have a compatible web browser installed on your system.
