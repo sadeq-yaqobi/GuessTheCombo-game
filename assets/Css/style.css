@@ -141,3 +141,11 @@ a:hover {
 .reset-btn:hover {
   opacity: 1;
 }
+@media (max-width: 576px) {
+  .game-title {
+    font-size: 30px;
+  }
+  .game-btn{
+    margin-top: 20px!important;
+  }
+}
